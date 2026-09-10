@@ -4,6 +4,8 @@ import streamlit as st
 from dotenv import load_dotenv
 from agent.graph import run_agent
 
+
+# Load environment variables and create necessary directories
 load_dotenv()
 os.makedirs("data/uploads", exist_ok=True)
 os.makedirs("data/outputs", exist_ok=True)
