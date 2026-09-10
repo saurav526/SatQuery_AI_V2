@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.local
+.env.*.local
+
+# Keep the example environment file
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated outputs
+data/outputs/*
+!data/outputs/.gitkeep
+
+# Uploaded images
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Model/cache files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Hugging Face cache
+.cache/
+huggingface/
+transformers_cache/
+
+# Temporary files
+*.tmp
+*.temp
