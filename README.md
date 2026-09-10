@@ -98,6 +98,7 @@ Calibrated confidence and abstention.
 Visual evidence overlays and downloadable reports.
 Fine-tuning/adaptation experiments and quantitative results.
 Architecture
-User → Streamlit → LangGraph query interpreter → input validator → specialist model router → remote-sensing model → evidence extraction → simple-language synthesis → answer + evidence + confidence + trace
 
-The agent's internal reasoning is not exposed. Only an auditable execution trace is displayed.
+User →  Streamlit →  LangGraph query interpreter  → input validator → specialist model router → remote-sensing model → evidence extraction → simple-language synthesis → answer + evidence + confidence + trace
+
+
