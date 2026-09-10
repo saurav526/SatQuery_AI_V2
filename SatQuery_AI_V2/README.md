@@ -134,3 +134,4 @@ User
 → answer + evidence + confidence + trace
 
 The agent's internal reasoning is not exposed. Only an auditable execution trace is displayed.
+
